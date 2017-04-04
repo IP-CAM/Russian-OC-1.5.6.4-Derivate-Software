@@ -1,0 +1,29 @@
+---------- Date: 2016-03-24 06:00:46 ~ IP : 37.54.52.150 ----------
+REQUEST URI : /admin/index.php?route=setting/setting&amp;token=e1d2cdc7bc288cb5b12ac6c8570355df
+MOD DETAILS:
+   modFile   : /home/mkvadrat/public_html/y/vqmod/xml/yandexmapsvqmodcontactV2.xml
+   id        : yandex_maps_vqmod
+   version   : 1.0
+   vqmver    : All
+   author    : web-tomsk.ru | lays
+
+File Name    : admin/view/template/setting/setting.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td><input type="text" name="config_fax" value="<?php echo $config_fax; ?>" /></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-03-24 06:39:27 ~ IP : 37.54.52.150 ----------
+REQUEST URI : /admin/index.php?route=catalog/information/update&amp;token=572c00a5bc5931e09b8d6029bd2c2e60&amp;information_id=4
+MOD DETAILS:
+   modFile   : /home/mkvadrat/public_html/y/vqmod/xml/admin_theme_base5builder_impulsepro_1.5.4-below.xml
+   id        : Admin Theme - Base 5 Builder - ImpulsePro
+   version   : 1.0.4
+   vqmver    : 2.0
+   author    : Niyi Sodipe - Base5Builder.com
+
+File Name    : admin/view/template/catalog/information_*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/image/information.png" alt="" /> <?php echo $heading_title; ?></h1>
+
+----------------------------------------------------------------------
+
+

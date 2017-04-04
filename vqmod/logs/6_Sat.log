@@ -1,0 +1,14 @@
+---------- Date: 2017-01-14 10:06:04 ~ IP : 176.108.189.1 ----------
+REQUEST URI : /admin/index.php?route=setting/setting&amp;token=744a147d3dd46ee8d756e12493854961
+MOD DETAILS:
+   modFile   : /home/mkvadrat/public_html/y/vqmod/xml/yandexmapsvqmodcontactV2.xml
+   id        : yandex_maps_vqmod
+   version   : 1.0
+   vqmver    : All
+   author    : web-tomsk.ru | lays
+
+File Name    : admin/view/template/setting/setting.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td><input type="text" name="config_fax" value="<?php echo $config_fax; ?>" /></td>
+----------------------------------------------------------------------
+
+
