@@ -1,5 +1,5 @@
 <?php
-// Version
+// Version 123456
 define('VERSION', '1.5.6.4');
 
 // Configuration

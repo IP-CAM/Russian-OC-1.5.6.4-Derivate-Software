@@ -1,14 +1,20 @@
----------- Date: 2016-03-14 12:28:03 ~ IP : 37.55.97.126 ----------
-REQUEST URI : /contact/
+---------- Date: 2017-05-08 13:40:33 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-08 13:43:01 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=setting/setting&amp;token=d6729c5b6028f1ce2bd2b5914eb91fbe
 MOD DETAILS:
-   modFile   : /home/mkvadrat/public_html/y/vqmod/xml/yandexmapsvqmodcontactV2.xml
+   modFile   : C:\OpenServer\domains\partner.loc\vqmod/xml/yandexmapsvqmodcontactV2.xml
    id        : yandex_maps_vqmod
    version   : 1.0
    vqmver    : All
    author    : web-tomsk.ru | lays
 
-File Name    : catalog/view/theme/*/template/information/contact.tpl(0)
-VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h2><?php echo $text_contact; ?></h2>
+File Name    : admin/view/template/setting/setting.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td><input type="text" name="config_fax" value="<?php echo $config_fax; ?>" /></td>
 ----------------------------------------------------------------------
 
 
