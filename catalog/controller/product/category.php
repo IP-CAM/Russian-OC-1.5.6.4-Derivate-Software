@@ -552,8 +552,18 @@ class ControllerProductCategory extends Controller {
 
 			); 
 			/*Фильтр цены*/
-
-
+			
+			//Добавление пользовательского id для стрелок 
+			if (preg_match( "#ASC#", $_SERVER['REQUEST_URI'])) {
+				$this->data['separator'] = 'asc';
+				$this->data['id'] = "id=\"asc\"";
+			}elseif(preg_match( "#DESC#", $_SERVER['REQUEST_URI'])){
+				$this->data['separator'] = 'desc';
+				$this->data['id'] = "id=\"desc\"";
+			}else{
+				$this->data['separator'] = "";
+				$this->data['id'] = "";
+			}
 
 			$this->data['sorts'][] = array(
 

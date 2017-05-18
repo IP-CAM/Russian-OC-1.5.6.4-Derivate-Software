@@ -34,3 +34,21 @@
  in C:\OpenServer\domains\partner.loc\system\library\image.php on line 34
 2017-05-08 13:45:15 - PHP Notice:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Corrupt JPEG data: 1 extraneous bytes before marker 0xd9
  in C:\OpenServer\domains\partner.loc\system\library\image.php on line 34
+2017-05-18 11:59:57 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\Server\domains\partner.loc\public_html\catalog\controller\product\category.php on line 556
+2017-05-18 11:59:57 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\Server\domains\partner.loc\public_html\catalog\controller\product\category.php on line 558
+2017-05-18 12:00:03 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\Server\domains\partner.loc\public_html\catalog\controller\product\category.php on line 556
+2017-05-18 12:00:03 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\Server\domains\partner.loc\public_html\catalog\controller\product\category.php on line 558
+2017-05-18 12:00:21 - PHP Notice:  Undefined variable: test in C:\Server\domains\partner.loc\public_html\catalog\view\theme\default\template\product\category.tpl on line 16
+2017-05-18 12:00:38 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\Server\domains\partner.loc\public_html\catalog\controller\product\category.php on line 556
+2017-05-18 12:00:38 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\Server\domains\partner.loc\public_html\catalog\controller\product\category.php on line 558
+2017-05-18 12:01:03 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\Server\domains\partner.loc\public_html\catalog\controller\product\category.php on line 556
+2017-05-18 12:01:03 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\Server\domains\partner.loc\public_html\catalog\controller\product\category.php on line 558
+2017-05-18 12:01:37 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\Server\domains\partner.loc\public_html\catalog\controller\product\category.php on line 556
+2017-05-18 12:01:37 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\Server\domains\partner.loc\public_html\catalog\controller\product\category.php on line 558
+2017-05-18 12:02:38 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\Server\domains\partner.loc\public_html\catalog\controller\product\category.php on line 556
+2017-05-18 12:02:38 - PHP Notice:  Undefined variable: test in C:\Server\domains\partner.loc\public_html\catalog\view\theme\default\template\product\category.tpl on line 16
+2017-05-18 12:13:07 - PHP Warning:  Illegal string offset 'square_meter' in C:\Server\domains\partner.loc\public_html\admin\view\template\catalog\product_form.tpl on line 110
+2017-05-18 12:13:07 - PHP Notice:  Undefined variable: discount_row in C:\Server\domains\partner.loc\public_html\admin\view\template\catalog\product_form.tpl on line 1026
+2017-05-18 12:26:03 - PHP Notice:  Undefined variable: test in C:\Server\domains\partner.loc\public_html\catalog\view\theme\default\template\product\category.tpl on line 16
+2017-05-18 12:36:40 - PHP Notice:  Undefined variable: separator in C:\Server\domains\partner.loc\public_html\catalog\view\theme\default\template\product\category.tpl on line 38
+2017-05-18 12:36:40 - PHP Notice:  Undefined variable: separator in C:\Server\domains\partner.loc\public_html\catalog\view\theme\default\template\product\category.tpl on line 41
