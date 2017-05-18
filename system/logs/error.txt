@@ -34,6 +34,7 @@
  in C:\OpenServer\domains\partner.loc\system\library\image.php on line 34
 2017-05-08 13:45:15 - PHP Notice:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Corrupt JPEG data: 1 extraneous bytes before marker 0xd9
  in C:\OpenServer\domains\partner.loc\system\library\image.php on line 34
+<<<<<<< HEAD
 2017-05-18 11:59:57 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\Server\domains\partner.loc\public_html\catalog\controller\product\category.php on line 556
 2017-05-18 11:59:57 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\Server\domains\partner.loc\public_html\catalog\controller\product\category.php on line 558
 2017-05-18 12:00:03 - PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in C:\Server\domains\partner.loc\public_html\catalog\controller\product\category.php on line 556
@@ -52,3 +53,15 @@
 2017-05-18 12:26:03 - PHP Notice:  Undefined variable: test in C:\Server\domains\partner.loc\public_html\catalog\view\theme\default\template\product\category.tpl on line 16
 2017-05-18 12:36:40 - PHP Notice:  Undefined variable: separator in C:\Server\domains\partner.loc\public_html\catalog\view\theme\default\template\product\category.tpl on line 38
 2017-05-18 12:36:40 - PHP Notice:  Undefined variable: separator in C:\Server\domains\partner.loc\public_html\catalog\view\theme\default\template\product\category.tpl on line 41
+=======
+2017-05-18 11:08:31 - PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at A:\OpenServer\domains\partner.loc\system\database\mysql.php:6) in A:\OpenServer\domains\partner.loc\system\library\session.php on line 27
+2017-05-18 11:08:31 - PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at A:\OpenServer\domains\partner.loc\system\database\mysql.php:6) in A:\OpenServer\domains\partner.loc\system\library\session.php on line 27
+2017-05-18 11:08:31 - PHP Warning:  Cannot modify header information - headers already sent by (output started at A:\OpenServer\domains\partner.loc\system\database\mysql.php:6) in A:\OpenServer\domains\partner.loc\index.php on line 179
+2017-05-18 11:08:31 - PHP Warning:  Cannot modify header information - headers already sent by (output started at A:\OpenServer\domains\partner.loc\system\database\mysql.php:6) in A:\OpenServer\domains\partner.loc\system\library\currency.php on line 45
+2017-05-18 11:08:31 - PHP Warning:  Cannot modify header information - headers already sent by (output started at A:\OpenServer\domains\partner.loc\system\database\mysql.php:6) in A:\OpenServer\domains\partner.loc\catalog\controller\common\seo_pro.php on line 70
+2017-05-18 11:08:38 - PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at A:\OpenServer\domains\partner.loc\system\database\mysql.php:6) in A:\OpenServer\domains\partner.loc\system\library\session.php on line 27
+2017-05-18 11:08:38 - PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at A:\OpenServer\domains\partner.loc\system\database\mysql.php:6) in A:\OpenServer\domains\partner.loc\system\library\session.php on line 27
+2017-05-18 11:08:38 - PHP Warning:  Cannot modify header information - headers already sent by (output started at A:\OpenServer\domains\partner.loc\system\database\mysql.php:6) in A:\OpenServer\domains\partner.loc\index.php on line 179
+2017-05-18 11:08:38 - PHP Warning:  Cannot modify header information - headers already sent by (output started at A:\OpenServer\domains\partner.loc\system\database\mysql.php:6) in A:\OpenServer\domains\partner.loc\system\library\currency.php on line 45
+2017-05-18 11:08:38 - PHP Warning:  Cannot modify header information - headers already sent by (output started at A:\OpenServer\domains\partner.loc\system\database\mysql.php:6) in A:\OpenServer\domains\partner.loc\catalog\controller\common\seo_pro.php on line 70
+>>>>>>> 3fb1a3935c8024a19c602b56e320f628f1037055

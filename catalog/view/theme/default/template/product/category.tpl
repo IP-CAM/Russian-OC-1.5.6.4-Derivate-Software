@@ -14,7 +14,7 @@
 <?php } ?><?php echo $content_top; ?>
 	<div class="top-obj-text">
 	<?php if($categories) { ?>
-	<ul>
+	<ul class="list-products">
     <?php foreach ($categories as $category) { ?>
 		<li>
 		    <a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>

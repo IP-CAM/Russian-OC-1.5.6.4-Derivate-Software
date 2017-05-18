@@ -2744,13 +2744,13 @@ form.contact p.name {
 
 	height: 32px;
 
-	-webkit-transition-duration: 0.3s; 
+	/*-webkit-transition-duration: 0.3s; 
 
 	-o-transition-duration: 0.3s; 
 
 	-moz-transition-duration: 0.3s; 
 
-	transition-duration: 0.3s;
+	transition-duration: 0.3s;*/
 
 }
 
@@ -2766,13 +2766,13 @@ form.contact p.name {
 
 	height: 32px;
 
-	-webkit-transition-duration: 0.3s; 
+	/*-webkit-transition-duration: 0.3s; 
 
 	-o-transition-duration: 0.3s; 
 
 	-moz-transition-duration: 0.3s; 
 
-	transition-duration: 0.3s;
+	transition-duration: 0.3s;*/
 
 }
 
@@ -2786,15 +2786,19 @@ form.contact p.name {
 
 }
 
-.top-obj-text ul {
+.top-obj-text .list-products {
 
     padding-top: 30px;
 
 	text-align: center;
 
+    padding-bottom: 0;
+
+    list-style: none;
+
 }
 
-.top-obj-text ul li {
+.top-obj-text .list-products li {
 
     display: inline-block;
 
@@ -2804,15 +2808,19 @@ form.contact p.name {
 
 	margin-bottom: 10px;
 
+    text-indent: 0;
+
+    padding-bottom: 0;
+
 }
 
-.top-obj-text ul li:last-child {
+.top-obj-text .list-products li:last-child {
 
     margin-right: 0;
 
 }
 
-.top-obj-text ul li a {
+.top-obj-text .list-products li a {
 
     padding: 7px 17px;
 
@@ -2840,7 +2848,7 @@ form.contact p.name {
 
 }
 
-.top-obj-text ul li a:hover {
+.top-obj-text .list-products li a:hover {
 
     color: #ffffff;
 
@@ -2898,14 +2906,49 @@ form.contact p.name {
 
     font-family: "HelveticaLight";
 
-    margin: 0 0 4px 0;
+    margin: 0;
 
 	text-align: justify;
 
-    line-height: 20px;
+    line-height: 26px;
 
 	text-indent: 20px;
 
+    padding-bottom: 10px;
+}
+
+.top-obj-text p span {
+    font-size: 16px !important;
+}
+
+.top-obj-text ul,
+.content-top ul {
+    padding-bottom: 10px;
+    list-style: disc;
+}
+
+.top-obj-text ul li,
+.content-top ul li {
+    font-size: 16px;
+
+    color: #1f1f1f;
+
+    font-family: "HelveticaLight";
+
+    margin: 0;
+
+    text-align: left;
+
+    line-height: 20px;
+
+    text-indent: 20px;
+
+    padding-bottom: 5px;
+}
+
+.top-obj-text img {
+    margin-right: 20px !important;
+    margin-bottom: 10px !important;
 }
 
 /*--------------------- Content object page ------------------------*/
@@ -3720,35 +3763,47 @@ form.contact .right-form input.sub:hover {
 
 .content-about .content-top {
 
-    color: #333333;
+    /*color: #333333;
 
     font-family: "HelveticaLight";
 
     font-size: 18px;
 
+    line-height: 32px;*/
+
     width: 785px;
 
-    margin: 0px 0px 0px 110px;
+    margin: 40px 0px 0px 110px;
 
-    line-height: 32px;
+}
 
+.content-about .content-top p,
+.content-about .content-bottom p {
+    font-size: 16px;
+    color: #1f1f1f;
+    font-family: "HelveticaLight";
+    margin: 0;
+    text-align: justify;
+    line-height: 26px;
+    text-indent: 20px;
+    padding-bottom: 10px;
 }
 
 
 
 .content-about .content-bottom {
 
-    color: #333333;
+    /*color: #333333;
 
     font-family: "HelveticaLight";
 
     font-size: 18px;
 
+    line-height: 32px;*/
+
     width: 100%px;
 
     margin: 0px 70px 0px 110px;
-
-    line-height: 32px;
 
 }
 
@@ -5056,7 +5111,13 @@ form.contact .right-form input.sub:hover {
 
 .more-descr{
 
-    position: absolute;
+    /*position: absolute;*/
+
+    overflow: hidden;
+
+    position: relative;
+
+    margin-bottom: 10px;
 
     margin-left: 300px;
 
