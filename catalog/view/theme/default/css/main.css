@@ -2953,6 +2953,21 @@ form.contact p.name {
     margin-bottom: 10px !important;
 }
 
+.main-list-urgently {
+    padding-bottom: 30px !important;
+}
+
+.main-list-urgently li {
+    margin-right: 22px !important;
+    line-height: auto !important;
+    text-indent: 0 !important;
+    padding-bottom: 0px !important;
+}
+
+.main-list-urgently li:last-child {
+    margin-right: 0px !important;
+}
+
 /*--------------------- Content object page ------------------------*/
 
 .content-obj-page {
