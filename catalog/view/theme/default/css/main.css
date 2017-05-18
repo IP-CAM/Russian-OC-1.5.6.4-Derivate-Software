@@ -2734,7 +2734,8 @@ form.contact p.name {
 
 
 
-.obj-filter .down:hover {
+.obj-filter .down:hover,
+#asc {
 
 	background: url("../images/down.png") no-repeat scroll 0px -32px;
 
@@ -2756,7 +2757,8 @@ form.contact p.name {
 
 
 
-.obj-filter .up:hover {
+.obj-filter .up:hover,
+#desc {
 
 	background: url("../images/up.png") no-repeat scroll 0px -32px;
 
