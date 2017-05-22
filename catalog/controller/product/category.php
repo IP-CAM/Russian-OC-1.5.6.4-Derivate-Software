@@ -357,6 +357,8 @@ class ControllerProductCategory extends Controller {
             $this->load->model('localisation/currency');
 
 			foreach ($results as $result) {
+				
+				//var_dump($result);
 
                 if($result['upc']){
 
@@ -540,15 +542,15 @@ class ControllerProductCategory extends Controller {
 
 				'value' => 'p.price-ASC',
 
-				'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price&order=ASC' . $url)
+				'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price=ASC' . $url)
 
 			); 
 			
 			/*Фильтр цены*/
 			$this->data['sorts_up_price'][] = array(
 
-				'up'    => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price&order=ASC' . $url),
-				'down'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price&order=DESC' . $url)
+				'up'    => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price=ASC' . $url),
+				'down'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price=DESC' . $url)
 
 			); 
 			/*Фильтр цены*/
