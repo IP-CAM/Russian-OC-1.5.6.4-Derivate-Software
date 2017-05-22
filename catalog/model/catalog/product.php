@@ -56,7 +56,6 @@ class ModelCatalogProduct extends Model {
 				'length_class_id'  => $query->row['length_class_id'],
 				'subtract'         => $query->row['subtract'],
 				'rating'           => round($query->row['rating']),
-
 				'reviews'          => $query->row['reviews'],
 				'minimum'          => $query->row['minimum'],
 				'sort_order'       => $query->row['sort_order'],
@@ -192,17 +191,22 @@ class ModelCatalogProduct extends Model {
 				'p.model',
 				'p.quantity',
 				'p.price',
+				'p.sort_price',
 				'rating',
 				'p.sort_order',
 				'p.date_added'
 			);	
 			
 			if (isset($data['sort']) && in_array($data['sort'], $sort_data)) {
+				
 				if ($data['sort'] == 'pd.name' || $data['sort'] == 'p.model') {
 					$sql .= " ORDER BY LCASE(" . $data['sort'] . ")";
-				} else {
+				} else if($data['sort'] == 'p.sort_price'){
+					$sql .= " ORDER BY " . $data['sort'];
+				}else{
 					$sql .= " ORDER BY " . $data['sort'];
 				}
+		
 			} else {
 				$sql .= " ORDER BY p.sort_order";	
 			}

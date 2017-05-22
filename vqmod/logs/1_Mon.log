@@ -94,3 +94,279 @@ VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1><img src="view/imag
 ----------------------------------------------------------------------
 
 
+---------- Date: 2017-05-22 15:32:07 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.price&amp;order=ASC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 15:32:15 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 15:32:18 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 15:49:25 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.price&amp;order=ASC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 15:49:31 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 15:49:45 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 15:49:58 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC&amp;page=2
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 15:50:10 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC&amp;page=3
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 15:50:22 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC&amp;page=4
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:14:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:15:13 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:15:42 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:15:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:16:18 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:17:38 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:17:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:18:17 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:29:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:30:59 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:31:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC&amp;page=5
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:31:25 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:33:18 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:33:19 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:34:35 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:34:36 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:34:37 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:34:59 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:35:00 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:35:26 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:35:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:35:40 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:35:52 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:36:24 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:36:41 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:36:46 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:36:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:37:09 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC&amp;page=5
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:38:34 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC&amp;page=5
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:38:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC&amp;page=5
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:39:41 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC&amp;page=5
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:39:48 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC&amp;page=5
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:39:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC&amp;page=1
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:40:08 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:40:19 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=DESC&amp;page=3
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:40:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-05-22 16:41:01 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /sale.html?sort=p.sort_price&amp;order=ASC&amp;page=5
+VQMod::_getMods - NO XML FILES READABLE IN XML FOLDER
+----------------------------------------------------------------------
+
+

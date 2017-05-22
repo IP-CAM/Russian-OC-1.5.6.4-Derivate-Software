@@ -544,13 +544,23 @@ class ControllerProductCategory extends Controller {
 
 				'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price=ASC' . $url)
 
+			);
+			
+			$this->data['sorts'][] = array(
+
+				'text'  => $this->language->get('text_price_desc'),
+
+				'value' => 'p.price-DESC',
+
+				'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price&order=DESC' . $url)
+
 			); 
 			
 			/*Фильтр цены*/
 			$this->data['sorts_up_price'][] = array(
 
-				'up'    => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price=ASC' . $url),
-				'down'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price=DESC' . $url)
+				'up'    => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.sort_price&order=ASC' . $url),
+				'down'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.sort_price&order=DESC' . $url)
 
 			); 
 			/*Фильтр цены*/
@@ -566,18 +576,6 @@ class ControllerProductCategory extends Controller {
 				$this->data['separator'] = "";
 				$this->data['id'] = "";
 			}
-
-			$this->data['sorts'][] = array(
-
-				'text'  => $this->language->get('text_price_desc'),
-
-				'value' => 'p.price-DESC',
-
-				'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '&sort=p.price&order=DESC' . $url)
-
-			); 
-
-			
 
 			if ($this->config->get('config_review_status')) {
 
