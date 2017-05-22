@@ -116,10 +116,10 @@
 <?php echo $content_bottom; ?></div><!-- End object-page -->
 
 <script type="text/javascript">
-	/*$(function() {
+	$(function() {
 	  var $to = $('#scroll-down');
 	  $('html, body').animate({ 'scrollTop': $to.offset().top}, 500);
-	}); */
+	}); 
 </script>
 
 <?php echo $footer; ?>
