@@ -2734,7 +2734,8 @@ form.contact p.name {
 
 
 
-.obj-filter .down:hover {
+.obj-filter .down:hover,
+#asc {
 
 	background: url("../images/down.png") no-repeat scroll 0px -32px;
 
@@ -2756,7 +2757,8 @@ form.contact p.name {
 
 
 
-.obj-filter .up:hover {
+.obj-filter .up:hover,
+#desc {
 
 	background: url("../images/up.png") no-repeat scroll 0px -32px;
 
@@ -2949,6 +2951,21 @@ form.contact p.name {
 .top-obj-text img {
     margin-right: 20px !important;
     margin-bottom: 10px !important;
+}
+
+.main-list-urgently {
+    padding-bottom: 30px !important;
+}
+
+.main-list-urgently li {
+    margin-right: 22px !important;
+    line-height: auto !important;
+    text-indent: 0 !important;
+    padding-bottom: 0px !important;
+}
+
+.main-list-urgently li:last-child {
+    margin-right: 0px !important;
 }
 
 /*--------------------- Content object page ------------------------*/

@@ -1,7 +1,7 @@
 <div class="content-top">
 <?php if (($setting['position'] == 'content_top') || ($setting['position'] == 'content_bottom')){ ?>
 		<h1><?php echo $heading_title; ?></h1>
-		<ul>
+		<ul class="main-list-urgently">
 		<?php foreach ($products as $product) { ?>
 			<li><a href="<?php echo $product['href']; ?>">
 				<?php if ($product['thumb']) { ?>
