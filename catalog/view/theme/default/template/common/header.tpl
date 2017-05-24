@@ -343,12 +343,12 @@ $(window).on("orientationchange", function(event){
 			<ul>
 				<li>
 					<img src="catalog/view/theme/default/images/viber-head.png" alt="">
-					<span>+7 (978) 096 78 29</span>
-					<span class="no-pad">+7 (978) 854 20 41</span>
+					<span>+7(978)101-39-50</span>
+					<span class="no-pad">+7(978)138-96-59</span>
 				</li>
 				<li class="mail">
 					<img src="catalog/view/theme/default/images/mail-head.png" alt="">
-					<span>yaltapartner@yandex.ru</span>
+					<span>emailpartner@yandex.ru</span>
 				</li>
 				<li>
                 <input type="text" name="search" type="submit" placeholder="Поиск по №" value="" />
@@ -356,7 +356,7 @@ $(window).on("orientationchange", function(event){
 			</ul>
 		</div><!-- End header-top -->
 		<a href="<?php echo $home; ?>" class="logo-head"><img class="logo-head" src="<?php echo $logo; ?>" alt=""></a>
-		<?php if ($categories) { ?>
+		<?php if ($categories_object) { ?>
 		<ul class="left-menu">
 			<?php foreach($categories_object as $cat){  ?>
 		        <li><?php if ($cat['active']) { ?>
@@ -368,7 +368,7 @@ $(window).on("orientationchange", function(event){
 		</ul>	
 		<?php } ?>
 		<nav id="nav-wrap">
-		<?php if ($categories) { ?>
+		<?php if ($categories_object) { ?>
 			<ul id="nav">
 				<?php foreach($categories_object as $cat){  ?>
 		        <li><?php if ($cat['active']) { ?>

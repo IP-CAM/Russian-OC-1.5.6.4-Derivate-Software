@@ -37,8 +37,8 @@
 						<span>в </span><a href="#">MKVADRAT</a>
 					</li>
 					<li>
-						<p>298600, Россия, Республика Крым,</p>
-						<p>Ялта, ост."Октябрь", ул. Московская, 47/2</p>
+						<p>Россия, Республика Крым, </p>
+						<p>г. Ялта, ул. Гоголя, д. 14, офис №1</p>
 					</li>
 				</ul>
 			
@@ -51,20 +51,20 @@
 				<ul>
 					<li>
 						<img src="catalog/view/theme/default/images/phone-fot.png" alt="">
-						<span id="inf-tel">+7 (978) 096 78 29</span>
+						<span id="inf-tel">+7 (978) 101-39-50</span>
 					</li>
 					<li>
 					    <img src="catalog/view/theme/default/images/punt.png" alt="">
-						<span id="inf-tel" class="sec">+7 (978) 854 20 41</span> <span class="vib">Viber</span>
+						<span id="inf-tel" class="sec">+7 (978) 138-96-59</span> <span class="vib">Viber</span>
 					</li>
 					<li id="inf-li-email">
 						<img src="catalog/view/theme/default/images/mail-fot.png" alt="">
-						<a id="inf-email" href="#">yaltapartner@yandex.ru</a>
+						<a id="inf-email" href="#">emailpartner@yandex.ru</a>
 					</li>
-					<li>
+					<!--<li>
 						<img src="catalog/view/theme/default/images/skype-fot.png" alt="">
 						<span id="inf-skype">Lubinetss</span>
-					</li>
+					</li>-->
 				</ul>
 				</div><!-- End nav-header -->
 			</div><!-- End last-contact-fot -->

@@ -13,9 +13,11 @@
 		<li><span>E-mail: </span>
 			<p><?php echo $setting["config_email"]; ?></p>
 		</li>
+		<?php if($setting["skype"]){?>
 		<li><span>Skype: </span>
 			<p><?php echo $setting["skype"]; ?></p>
 		</li>
+		<?php } ?>
 	</ul>
 </div><!-- End content-contact -->
 

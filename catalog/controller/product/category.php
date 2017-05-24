@@ -284,17 +284,15 @@ class ControllerProductCategory extends Controller {
 
 			$this->data['categories'] = array();
 
-            if($category_info['parent_type']=='1'){
+            //if($category_info['parent_type']=='1'){
 
-                $results = $this->model_catalog_category->getCategories($category_info['parent_id']);
+               // $results = $this->model_catalog_category->getCategories($category_info['parent_id']);
 
-            }
-
-            else{
+            //}else{
 
                 $results = $this->model_catalog_category->getCategories($category_id);
 
-            }
+           // }
 
 			foreach ($results as $result) {
 

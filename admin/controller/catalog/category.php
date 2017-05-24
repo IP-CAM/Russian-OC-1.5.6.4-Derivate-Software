@@ -259,7 +259,7 @@ class ControllerCatalogCategory extends Controller {
 			$this->data['category_store'] = array(0);
 		}
        
-        $this->data['parent_type'] = isset($this->data['category_description'][1]['parent_type']);
+        //$this->data['parent_type'] = isset($this->data['category_description'][1]['parent_type']);
 		
 		if (isset($this->request->post['keyword'])) {
 			$this->data['keyword'] = $this->request->post['keyword'];

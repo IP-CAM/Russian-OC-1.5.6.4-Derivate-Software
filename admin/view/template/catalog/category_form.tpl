@@ -101,7 +101,7 @@
                 </div></td>
 			  <td></td>
             </tr>
-              <tr style="font-weight: bold;color: #FFF;background: #355DF2;">
+              <!--<tr style="font-weight: bold;color: #FFF;background: #355DF2;">
                   <td>Показывать верхний уровень категорий</td>
                   <td>
                       <select name="parent_type">
@@ -111,7 +111,7 @@
 
 
                   </td>
-              </tr>
+              </tr>-->
             <tr>
               <td><?php echo $entry_keyword; ?></td>
               <td><input type="text" name="keyword" value="<?php echo $keyword; ?>" /></td>

@@ -70,9 +70,9 @@ class ModelCatalogCategory extends Model {
 		if ($data['keyword']) {
 			$this->db->query("INSERT INTO " . DB_PREFIX . "url_alias SET query = 'category_id=" . (int)$category_id . "', keyword = '" . $this->db->escape($data['keyword']) . "'");
 		}
-        if ($data['parent_type']) {
+        /*if ($data['parent_type']) {
             $this->db->query("UPDATE " . DB_PREFIX . "category_description SET parent_type = " . $data['parent_type'] . " WHERE category_id = " . (int)$category_id);
-        }
+        }*/
 		$this->cache->delete('category');
 	}
 	
@@ -147,7 +147,7 @@ class ModelCatalogCategory extends Model {
 				'meta_keyword'     => $result['meta_keyword'],
 				'meta_description' => $result['meta_description'],
 				'description'      => $result['description'],
-                'parent_type'      => $result['parent_type'],
+                //'parent_type'      => $result['parent_type'],
 			);
 		}
 		
