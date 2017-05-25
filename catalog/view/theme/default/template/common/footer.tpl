@@ -29,7 +29,7 @@
 			</div>
 				<ul class="fot-contact">
 					<li>
-						<p>&copy; 2009-2016  ПАРТНЕР</p>
+						<p>&copy; 2009-2017  ПАРТНЕР</p>
 						<p>Все права защищены</p>
 					</li>
 					<li>
@@ -51,11 +51,11 @@
 				<ul>
 					<li>
 						<img src="catalog/view/theme/default/images/phone-fot.png" alt="">
-						<span id="inf-tel">+7 (978) 101-39-50</span>
+						<span id="inf-tel" class="sec">+7 (978) 138-96-59</span> <span class="vib">Viber</span>
 					</li>
 					<li>
 					    <img src="catalog/view/theme/default/images/punt.png" alt="">
-						<span id="inf-tel" class="sec">+7 (978) 138-96-59</span> <span class="vib">Viber</span>
+						<span id="inf-tel">+7 (978) 101-39-50</span>
 					</li>
 					<li id="inf-li-email">
 						<img src="catalog/view/theme/default/images/mail-fot.png" alt="">

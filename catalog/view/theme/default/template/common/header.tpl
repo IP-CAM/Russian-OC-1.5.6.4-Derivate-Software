@@ -343,8 +343,8 @@ $(window).on("orientationchange", function(event){
 			<ul>
 				<li>
 					<img src="catalog/view/theme/default/images/viber-head.png" alt="">
-					<span>+7(978)101-39-50</span>
-					<span class="no-pad">+7(978)138-96-59</span>
+					<span>+7(978)138-96-59</span>
+					<span class="no-pad">+7(978)101-39-50</span>
 				</li>
 				<li class="mail">
 					<img src="catalog/view/theme/default/images/mail-head.png" alt="">
