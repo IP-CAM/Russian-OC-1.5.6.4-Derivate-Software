@@ -627,19 +627,21 @@ form.contact .inp-block p {
     margin: 0px auto;
 }
 
-.content-services .col a {
+/*.content-services .col a*/
+.content-services .col .block {
     box-shadow: 0 1px 2px 2px #d7d5ba;
     color: #003366;
     display: inline-block;
     font-family: "HelveticaRoman";
     font-size: 16px;
-    height: 195px;
+    height: 200px;
     margin: 5px 10px 20px 0;
     padding: 10px;
     vertical-align: top;
     width: 270px;
 }
-.content-services .col a:hover {
+/*.content-services .col a:hover*/
+.content-services .col .block:hover {
     box-shadow: -1px 0 5px 3px rgba(0, 0, 0, 0.35);
     font-family: "HelveticaBold";
     font-weight: normal !important;
@@ -768,6 +770,15 @@ header a.logo-head img{
 
 .left-desc .info-block ul li {
     padding-bottom: 0;
+}
+
+.main-list-urgently {
+    overflow: hidden;
+}
+
+.main-list-urgently li {
+    margin-right: 20px !important;
+    min-height: 210px !important;
 }
 
 ul li h3 {

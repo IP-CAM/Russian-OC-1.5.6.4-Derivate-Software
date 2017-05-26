@@ -293,35 +293,42 @@ class ControllerProductCategory extends Controller {
                 $results = $this->model_catalog_category->getCategories($category_id);
 
            // }
-
-			foreach ($results as $result) {
-
-				$data = array(
-
-					'filter_category_id'  => $result['category_id'],
-
-					'filter_sub_category' => true	
-
-				);
-
-							
-
-				$product_total = $this->model_catalog_product->getTotalProducts($data);
-
-				$image = $this->model_tool_image->resize($result['image'], $this->config->get('config_image_category_width'), $this->config->get('config_image_category_height'));
-
+			
+			if($results){
+				foreach ($results as $result) {
+	
+					$data = array(
+						'filter_category_id'  => $result['category_id'],
+						'filter_sub_category' => false	
+					);
+					
+					$product_total = $this->model_catalog_product->getTotalProducts($data);
+	
+					$image = $this->model_tool_image->resize($result['image'], $this->config->get('config_image_category_width'), $this->config->get('config_image_category_height'));
+	
+					$this->data['categories'][] = array(
+						'category_id' => $result['category_id'],
+						'name'  => $result['name'] . ($this->config->get('config_product_count') ? ' (' . $product_total . ')' : ''),
+						'thumb' => $image,
+						'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '_' . $result['category_id'] . $url)
+					);
+				}
+			}else{
+				$dest_category = $this->model_catalog_category->getCategory($category_id);
 				
-
-				$this->data['categories'][] = array(
-
-					'name'  => $result['name'] . ($this->config->get('config_product_count') ? ' (' . $product_total . ')' : ''),
-
-					'thumb' => $image,
-
-					'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '_' . $result['category_id'] . $url)
-
-				);
-
+				$results = $this->model_catalog_category->getLastCategory($dest_category['parent_id']);
+				
+				foreach($results as $result){
+					
+					$image = $this->model_tool_image->resize($result['image'], $this->config->get('config_image_category_width'), $this->config->get('config_image_category_height'));
+					
+					$this->data['categories'][] = array(
+						'category_id' => $result['category_id'],
+						'name'  => $result['name'],
+						'thumb' => $image,
+						'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '_' . $result['category_id'] . $url)
+					);
+				}
 			}
 
 

@@ -2670,7 +2670,7 @@ form.contact p.name {
 
     text-align: right;
 
-    margin: 15px 40px 0px 0px;
+    margin: 15px 40px 40px 0px;
 
 }
 
@@ -2850,7 +2850,8 @@ form.contact p.name {
 
 }
 
-.top-obj-text .list-products li a:hover {
+.top-obj-text .list-products li a:hover,
+.top-obj-text .list-products li .active-category {
 
     color: #ffffff;
 
@@ -2912,9 +2913,9 @@ form.contact p.name {
 
 	text-align: justify;
 
-    line-height: 26px;
+    line-height: 21px;
 
-	text-indent: 20px;
+	text-indent: 36px;
 
     padding-bottom: 10px;
 }
@@ -2962,6 +2963,7 @@ form.contact p.name {
     line-height: auto !important;
     text-indent: 0 !important;
     padding-bottom: 0px !important;
+    min-height: 250px !important;
 }
 
 .main-list-urgently li:last-child {
@@ -3801,8 +3803,8 @@ form.contact .right-form input.sub:hover {
     font-family: "HelveticaLight";
     margin: 0;
     text-align: justify;
-    line-height: 26px;
-    text-indent: 20px;
+    line-height: 21px;
+    text-indent: 36px;
     padding-bottom: 10px;
 }
 
@@ -3836,7 +3838,9 @@ form.contact .right-form input.sub:hover {
 
     width: 100%;
 
-    margin-left: 120px;
+    /*margin-left: 120px;*/
+
+    text-align: center;
 
 }
 
@@ -3860,7 +3864,7 @@ form.contact .right-form input.sub:hover {
 
 }
 
-
+/* 25.05.2017 убрана ссылка, поставлен <span class="block"> */
 
 .content-services .col a{
 
@@ -3905,6 +3909,55 @@ form.contact .right-form input.sub:hover {
 	transition-duration: 0.8s;
 
 }
+
+
+
+.content-services .col .block {
+    display: inline-block;
+
+    width: 299px;
+
+    margin: 0px 12px 30px 0px;
+
+    vertical-align: top;
+
+    height: 210px;
+
+    box-shadow: 0 1px 2px 2px #d7d5ba;
+
+    color: #003366;
+
+    font-size: 18px;
+
+    font-family: "HelveticaRoman";
+
+    padding: 10px;
+    
+    cursor: pointer;
+    
+    text-align: left;
+}
+
+.content-services .col .block:hover{
+
+    box-shadow: -1px 0 5px 3px rgba(0, 0, 0, 0.35);
+
+    font-family: "HelveticaBold";
+
+    font-weight: 300;
+
+    -webkit-transition-duration: 0.8s; 
+
+    -o-transition-duration: 0.8s; 
+
+    -moz-transition-duration: 0.8s; 
+
+    transition-duration: 0.8s;
+
+}
+
+
+
 
 
 
@@ -5174,7 +5227,7 @@ form.contact .right-form input.sub:hover {
 
     font-size: 16px !important;
 
-    line-height: 22px !important;
+    line-height: 21px !important;
 
 }
 
@@ -5380,7 +5433,6 @@ form.contact .right-form input.sub:hover {
 }
 
 
-
 @media screen and (min-width: 960px) {
 
     #nav-wrap {
@@ -5416,4 +5468,8 @@ form.contact .right-form input.sub:hover {
 
 	/* landscape-specific styles */
 
+}
+
+.obj-filter {
+    text-align: right !important;
 }

@@ -1,6 +1,6 @@
 <div class="content-top content-top-new">
 <?php if($products){?>
-	<ul>
+	<ul class="main-list-urgently">
 	<?php foreach ($products as $product) { ?>
 			<li><a href="<?php echo $product['href']; ?>">
 			    <?php if ($product['thumb']) { ?>

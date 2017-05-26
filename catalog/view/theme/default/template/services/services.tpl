@@ -8,45 +8,57 @@
 <div class="col-services-top">
 
 <span class="col">
-<a href="<?php echo $article_1; ?>">
+<!-- <a href="<?php echo $article_1; ?>"> -->
+<span class="block">
 <div class="col-img"><img src="catalog/view/theme/default/images/service-1.png" alt=""></div>
 <div class="col-desc">Срочныий выкуп недвижимости (оформление в течение 1 дня)</div>
-</a>
+</span>
+<!-- </a> -->
 </span>
 
 <span class="col">
-<a href="<?php echo $article_2; ?>">
+<!-- <a href="<?php echo $article_2; ?>"> -->
+<span class="block">
 <div class="col-img"><img src="catalog/view/theme/default/images/service-2.png" alt=""></div>
-<div class="col-desc">Юридическое сопровождение сделок</div>
-</a>
+<div class="col-desc">Юридеческое сопровождение сделок, оформление договоров</div>
+</span>
+<!-- </a> -->
 </span>
 
 <span class="col col-last">
-<a href="<?php echo $article_3; ?>">
+<!-- <a href="<?php echo $article_3; ?>"> -->
+<span class="block">
 <div class="col-img"><img src="catalog/view/theme/default/images/service-3.png" alt=""></div>
-<div class="col-desc">Государственная регистрация в росреестре</div>
-</a>
+<div class="col-desc">Государственная регистрация в росреестре, кадастры, выписки</div>
+</span>
+<!-- </a> -->
 </span>
 
 <span class="col">
-<a href="<?php echo $article_4; ?>">
+<!-- <a href="<?php echo $article_4; ?>"> -->
+<span class="block">
 <div class="col-img"><img src="catalog/view/theme/default/images/service-4.png" alt=""></div>
-<div class="col-desc">Справки с БТИ, тех. паспорт, справка из ЕГРП</div>
-</a>
+<div class="col-desc">БТИ: тех. паспорт, справки, экспертные оценки</div>
+</span>
+<!-- </a> -->
 </span>
 
 <span class="col">
-<a href="<?php echo $article_5; ?>">
+<!-- <a href="<?php echo $article_5; ?>"> -->
+<span class="block">
 <div class="col-img"><img src="catalog/view/theme/default/images/service-5.png" alt=""></div>
 <div class="col-desc">Узаконивание самостроев, перепланировок</div>
-</a>
+</span>
+<!-- </a> -->
 </span>
 
 <span class="col col-last">
-<a href="<?php echo $article_6; ?>">
+<!-- <a href="<?php echo $article_6; ?>">-->
+<span class="block">
 <div class="col-img"><img src="catalog/view/theme/default/images/service-6.png" alt=""></div>
-<div class="col-desc">Нотариальное оформление договоров</div>
-</a>
+<div class="col-desc">Нотариальное оформление договоров и регистрация</div>
+</span>
+<!-- </a> -->
 </span>
 
 </div>

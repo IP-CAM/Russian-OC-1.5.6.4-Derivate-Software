@@ -16,14 +16,20 @@
 	<?php if($categories) { ?>
 	<ul class="list-products">
     <?php foreach ($categories as $category) { ?>
+		<?php if($category['category_id'] == $category_id){ ?>
+		<li>
+		    <a class="active-category" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>
+	    </li>	
+	<?php }else{ ?>
 		<li>
 		    <a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>
 	    </li>	
 	<?php } ?>
+	<?php } ?>
 	</ul>
 	<?php } ?>
     <?php if ($description) { ?>
-                    <h1><?php echo $heading_title; ?></h1>
+        <h1><?php echo $heading_title; ?></h1>
     <?php if ($description) { ?>
     <?php echo $description; ?>
     <?php } ?>
@@ -118,7 +124,7 @@
 <script type="text/javascript">
 	$(function() {
 	  var $to = $('#scroll-down');
-	  $('html, body').animate({ 'scrollTop': $to.offset().top}, 500);
+	  $('html, body').animate({ 'scrollTop': $to.offset().top}, 0);
 	}); 
 </script>
 

@@ -58,7 +58,6 @@ class ModelCatalogCategory extends Model {
 		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "category_description WHERE category_id = '" . (int)$category_id . "'");
 		
 		return $query->rows;
-		
 	}
 	
 	public function SelectSquareMeter($product_id) {
@@ -66,7 +65,12 @@ class ModelCatalogCategory extends Model {
 		$query = $this->db->query("SELECT square_meter FROM " . DB_PREFIX . "product WHERE product_id = '" . (int)$product_id . "'");
 		
 		return $query->rows;
+	}
+	
+	public function getLastCategory($parent_id){
+		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "category c JOIN " . DB_PREFIX . "category_description cd ON (c.category_id = cd.category_id) JOIN " . DB_PREFIX . "category_to_store c2s ON (c.category_id = c2s.category_id) AND c.parent_id = '" . (int)$parent_id . "' AND cd.language_id = '" . (int)$this->config->get('config_language_id') . "' AND c2s.store_id = '" . (int)$this->config->get('config_store_id') . "' AND c.status = '1' ORDER BY c.parent_id, c.sort_order, cd.name");
 		
+		return $query->rows;
 	}
 }
 ?>

@@ -7,8 +7,8 @@
 			<p><?php echo $address; ?></p>
 		</li>
 		<li class="phone-li"><span>Телефоны:</span>
-			<p class="phone-2"><?php echo $telephone; ?></p><br />
-			<p class="phone"><?php echo $fax; ?></p>
+			<p class="phone-2"><?php echo $fax; ?></p><br />
+			<p class="phone"><?php echo $telephone; ?></p>
 		</li>
 		<li><span>E-mail: </span>
 			<p><?php echo $setting["config_email"]; ?></p>
