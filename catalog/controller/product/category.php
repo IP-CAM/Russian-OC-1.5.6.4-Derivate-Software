@@ -146,7 +146,7 @@ class ControllerProductCategory extends Controller {
 
 			if ($category_info['seo_title']) {
 
-                if($category_info['parent_type']=='1'){
+                if($category_info['top']=='1'){
 
                     $this->data['subCatInfo'] = $category_info['seo_title'];
 
@@ -284,22 +284,22 @@ class ControllerProductCategory extends Controller {
 
 			$this->data['categories'] = array();
 
-            //if($category_info['parent_type']=='1'){
+            if($category_info['top'] =='1' ){
 
-               // $results = $this->model_catalog_category->getCategories($category_info['parent_id']);
+                $results = $this->model_catalog_category->getCategories($category_info['parent_id']);
 
-            //}else{
+            }else{
 
                 $results = $this->model_catalog_category->getCategories($category_id);
 
-           // }
+            }
 			
-			if($results){
+			//if($results){
 				foreach ($results as $result) {
-	
+					
 					$data = array(
 						'filter_category_id'  => $result['category_id'],
-						'filter_sub_category' => false	
+						'filter_sub_category' => true	
 					);
 					
 					$product_total = $this->model_catalog_product->getTotalProducts($data);
@@ -313,7 +313,7 @@ class ControllerProductCategory extends Controller {
 						'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '_' . $result['category_id'] . $url)
 					);
 				}
-			}else{
+			/*}else{
 				$dest_category = $this->model_catalog_category->getCategory($category_id);
 				
 				$results = $this->model_catalog_category->getLastCategory($dest_category['parent_id']);
@@ -329,7 +329,7 @@ class ControllerProductCategory extends Controller {
 						'href'  => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '_' . $result['category_id'] . $url)
 					);
 				}
-			}
+			}*/
 
 
 

@@ -15,7 +15,18 @@
 	<div class="top-obj-text">
 	<?php if($categories) { ?>
 	<ul class="list-products">
-    <?php foreach ($categories as $category) { ?>
+		<?php foreach ($categories as $category) { ?>
+		<?php if($category['category_id'] == $category_id){ ?>
+			<li>
+				<a class="active-category" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>
+			</li>
+		<?php }else{ ?>
+			<li>
+				<a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>
+			</li>
+		<?php } ?>
+		<?php } ?>
+    <!--<?php foreach ($categories as $category) { ?>
 		<?php if($category['category_id'] == $category_id){ ?>
 		<li>
 		    <a class="active-category" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>
@@ -25,7 +36,7 @@
 		    <a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>
 	    </li>	
 	<?php } ?>
-	<?php } ?>
+	<?php } ?>-->
 	</ul>
 	<?php } ?>
     <?php if ($description) { ?>

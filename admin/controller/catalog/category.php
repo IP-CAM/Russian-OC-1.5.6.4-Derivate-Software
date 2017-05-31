@@ -261,6 +261,16 @@ class ControllerCatalogCategory extends Controller {
        
         //$this->data['parent_type'] = isset($this->data['category_description'][1]['parent_type']);
 		
+		$this->data['parent_type'] = array('0' => 'Нет', '1' => 'Да');
+		
+		if (isset($this->request->post['parent_category'])) {
+			$this->data['parent_category'] = $this->request->post['parent_category'];
+		} elseif (!empty($category_info)) {
+			$this->data['parent_category'] = $category_info['top'];
+		} else {
+			$this->data['parent_category'] = '';
+		}
+	
 		if (isset($this->request->post['keyword'])) {
 			$this->data['keyword'] = $this->request->post['keyword'];
 		} elseif (!empty($category_info)) {

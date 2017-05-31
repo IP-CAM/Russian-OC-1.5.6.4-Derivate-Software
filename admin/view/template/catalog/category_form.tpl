@@ -101,17 +101,20 @@
                 </div></td>
 			  <td></td>
             </tr>
-              <!--<tr style="font-weight: bold;color: #FFF;background: #355DF2;">
+              <tr style="font-weight: bold;color: #FFF;background: #355DF2;">
                   <td>Показывать верхний уровень категорий</td>
                   <td>
-                      <select name="parent_type">
-                          <option value="0" <?php if ($parent_type==0){echo "selected";}?>>Нет</option>
-                          <option value="1" <?php if ($parent_type==1){echo "selected";}?>>Да</option>
+                      <select name="parent_category">
+											<?php foreach($parent_type as $value => $name){ ?>
+											<?php if($parent_category ==  $value){ ?>
+                          <option value="<?php echo $value; ?>" selected="selected"><?php echo $name; ?></option>
+											<?php }else{ ?>
+													<option value="<?php echo $value; ?>"><?php echo $name; ?></option>
+											<?php } ?>
+											<?php } ?>
                       </select>
-
-
                   </td>
-              </tr>-->
+              </tr>
             <tr>
               <td><?php echo $entry_keyword; ?></td>
               <td><input type="text" name="keyword" value="<?php echo $keyword; ?>" /></td>
