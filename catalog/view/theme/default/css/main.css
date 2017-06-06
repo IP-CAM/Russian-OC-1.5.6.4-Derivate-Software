@@ -1061,7 +1061,7 @@ nav ul li a:hover {
 .content-mid {
 
     background: url("../images/content-mid-bg.png") no-repeat scroll 0px -25px;
-
+    background-position: 0px -2px;
 }
 
 .mid-text {
@@ -1130,7 +1130,7 @@ nav ul li a:hover {
 
     max-width: 550px;
 
-    padding-bottom: 27px;
+    padding-bottom: 0px;
 
     margin-left: 12px;
 
@@ -2704,7 +2704,7 @@ form.contact p.name {
 
 .obj-filter .down {
 
-	background: url("../images/down.png") no-repeat scroll 0px 0px;
+    background: url("../images/up.png") no-repeat scroll 0px 0px;
 
 	display: inline-block;
 
@@ -2720,7 +2720,7 @@ form.contact p.name {
 
 .obj-filter .up {
 
-	background: url("../images/up.png") no-repeat scroll 0px 0px;
+    background: url("../images/down.png") no-repeat scroll 0px 0px;
 
 	display: inline-block;
 
@@ -2737,7 +2737,7 @@ form.contact p.name {
 .obj-filter .down:hover,
 #asc {
 
-	background: url("../images/down.png") no-repeat scroll 0px -32px;
+	background: url("../images/up.png") no-repeat scroll 0px -32px;
 
 	cursor: pointer;
 
@@ -2759,8 +2759,8 @@ form.contact p.name {
 
 .obj-filter .up:hover,
 #desc {
-
-	background: url("../images/up.png") no-repeat scroll 0px -32px;
+    
+    background: url("../images/down.png") no-repeat scroll 0px -32px;
 
 	cursor: pointer;
 
@@ -2963,7 +2963,7 @@ form.contact p.name {
     line-height: auto !important;
     text-indent: 0 !important;
     padding-bottom: 0px !important;
-    min-height: 250px !important;
+    min-height: 220px !important;
 }
 
 .main-list-urgently li:last-child {
@@ -5472,4 +5472,73 @@ form.contact .right-form input.sub:hover {
 
 .obj-filter {
     text-align: right !important;
+}
+
+.inf-nav-header li{
+    min-height: 10px;
+}
+
+.inf-nav-header .active {
+    color: #f6d463;
+}
+
+
+.front-text-2 ul li a,
+p a {
+    font-size: 16px;
+    color: #1f1f1f;
+    font-family: "HelveticaLight";
+    margin: 0;
+    line-height: 21px;
+    text-indent: 36px;
+    padding-bottom: 10px;
+    display: inline;
+    text-decoration: underline;
+}
+
+.front-text-2 ul li a:hover,
+p a:hover {
+    text-decoration: none;
+}
+
+p {
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.front-text-4 {
+    margin-top: 0;
+}
+
+.bottom-content-top {
+    height: 203px !important;
+}
+
+.content-mid {
+    background-size: 100% 115%;
+}
+
+.bottom-content-top {
+    background-size: 30% 94%;
+}
+
+.bottom-content-top {
+    height: 182px;
+}
+
+.bottom-content::before {
+    height: 357px;
+}
+
+.content-about {
+    padding-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.content-top-new .main-list-urgently {
+    padding-bottom: 10px !important;
 }

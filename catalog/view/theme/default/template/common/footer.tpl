@@ -2,13 +2,24 @@
 	<footer>
 		<div class="top-footer">
 			<ul class="inf-nav-header">
-				<li><a href="<?php echo $rooms; ?>">Квартиры</a></li>
+				<!--<li><a href="<?php echo $rooms; ?>">Квартиры</a></li>
 				<li><a href="<?php echo $homes; ?>">Дома</a></li>
 				<li><a href="<?php echo $lots; ?>">Участки</a></li>
 				<li><a href="<?php echo $buildings; ?>">Новостройки</a></li>
 				<li><a href="<?php echo $hotels; ?>">Гостиницы</a></li>
 				<li><a href="<?php echo $elite; ?>">Элитная</a></li>
-				<li><a href="<?php echo $business; ?>">Бизнес</a></li>
+				<li><a href="<?php echo $business; ?>">Бизнес</a></li>-->
+				<?php if($categories){ ?>
+				<?php foreach($categories as $category){  ?>
+					<?php if($category['category_id'] == $category_id){ ?>
+						<li><a class="active" href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+					<?php }else{ ?>
+						<li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+					<?php } ?>
+				<?php } ?>
+				<?php }else{ ?>
+					<li></li>
+				<?php } ?>
 			</ul>
 		</div><!-- End top-footer -->
 		<a href="#" class="logo-fot"><img src="catalog/view/theme/default/images/footer-logo.png" alt=""></a>

@@ -507,6 +507,7 @@ form.contact .inp-block p {
 
 .content-mid {
     background: rgba(0, 0, 0, 0) url("../images/content-mid-bg.jpg") no-repeat scroll 0 70px / contain !important;
+    background: none !important;
 }
 
 .content-obj-page {
@@ -876,11 +877,12 @@ ul li h3 {
     box-shadow: 0 1px 2px 2px #d7d5ba;
     display: inline-block;
     float: left;
-    height: 177px;
+    height: 175px;
     margin-top: 5px;
     margin-right: 20px;
     position: relative;
     width: 212px;
+    min-height: 175px !important;
 }
 
 .content-top ul li:hover {
@@ -891,7 +893,7 @@ ul li h3 {
 .main .content-top ul li p {
     color: #08275f;
     font-family: "HelveticaRegular";
-    font-size: 12px;
+    font-size: 11px;
     line-height: 15px;
     margin: 0px 0 13px 10px;
 }
@@ -911,9 +913,9 @@ ul li h3 {
     margin: 0 auto;
 }
 
-.mid-text ul {
+/*.mid-text ul {
     margin-left: -65px !important;
-}
+}*/
 
 .mid-text p, .bottom-content p {
     max-width: 910px;
@@ -1204,6 +1206,18 @@ form.contact {
     width: 78%;
 }
 
+.top-obj-text h2 {
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-obj-text ul {
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .gallery-desc {
     float: right;
     margin-top: -25px;
@@ -1340,5 +1354,20 @@ header > ul.left-menu li::after {
 .button-up{
     display:none;
 	opacity:1;
+}
+
+
+.bottom-content-top {
+    margin-bottom: 0;
+    height: auto !important;
+}
+
+.front-text-6 {
+    margin-top: 0;
+}
+
+.bottom-content {
+    height: auto !important;
+    margin-bottom: 40px;
 }
 }

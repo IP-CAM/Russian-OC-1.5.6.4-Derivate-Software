@@ -159,7 +159,7 @@ class ControllerCatalogCategory extends Controller {
 		$this->data['entry_keyword'] = $this->language->get('entry_keyword');
 		$this->data['entry_parent'] = $this->language->get('entry_parent');
 		$this->data['entry_image'] = $this->language->get('entry_image');
-		$this->data['entry_top'] = $this->language->get('entry_top');
+		$this->data['entry_footer'] = $this->language->get('entry_footer');
 		$this->data['entry_column'] = $this->language->get('entry_column');		
 		$this->data['entry_sort_order'] = $this->language->get('entry_sort_order');
 		$this->data['entry_status'] = $this->language->get('entry_status');
@@ -169,7 +169,7 @@ class ControllerCatalogCategory extends Controller {
 		
 		$this->data['info_keyword'] = $this->language->get('info_keyword');
 		$this->data['info_image'] = $this->language->get('info_image');
-		$this->data['info_top'] = $this->language->get('info_top');
+		$this->data['info_footer'] = $this->language->get('info_footer');
 		$this->data['info_column'] = $this->language->get('info_column');
 		
 		$this->data['button_save'] = $this->language->get('button_save');
@@ -299,12 +299,28 @@ class ControllerCatalogCategory extends Controller {
 		
 		$this->data['no_image'] = $this->model_tool_image->resize('no_image.jpg', 100, 100);
 		
-		if (isset($this->request->post['top'])) {
+		/*if (isset($this->request->post['top'])) {
 			$this->data['top'] = $this->request->post['top'];
 		} elseif (!empty($category_info)) {
 			$this->data['top'] = $category_info['top'];
 		} else {
 			$this->data['top'] = 0;
+		}*/
+		
+		if (isset($this->request->post['footer_menu'])) {
+			$this->data['footer_menu'] = $this->request->post['footer_menu'];
+		} elseif (!empty($category_info)) {
+			$this->data['footer_menu'] = $category_info['footer_menu'];
+		} else {
+			$this->data['footer_menu'] = 0;
+		}
+		
+		if (isset($this->request->post['title_footer_menu'])) {
+			$this->data['title_footer_menu'] = $this->request->post['title_footer_menu'];
+		} elseif (!empty($category_info)) {
+			$this->data['title_footer_menu'] = $category_info['title_footer_menu'];
+		} else {
+			$this->data['title_footer_menu'] = '';
 		}
 		
 		if (isset($this->request->post['column'])) {

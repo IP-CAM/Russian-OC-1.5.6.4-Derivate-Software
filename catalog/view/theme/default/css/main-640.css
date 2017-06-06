@@ -404,7 +404,7 @@ nav ul li:last-child a:hover {
     position: relative;
     width: 300px;
     float: left;
-	height: 245px;
+	height: 218px;
 }
 
 .content-top ul li img {
@@ -1556,6 +1556,10 @@ form.contact .inp-block input, form.contact .right-form textarea {
 
 .main-list-urgently li {
     margin-right: 10px !important;
+}
+
+.bottom-content-top {
+    height: auto !important;
 }
 
 }

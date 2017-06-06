@@ -216,7 +216,7 @@
 			<ul>
 			<?php for($i=0; $i < count($relateds); $i++ ){ ?>
 			<?php if ($i == 3) break;?>
-			<li><a href="<?php echo $relateds[$i]["href"]; ?>">
+			<li><a target="_blank" href="<?php echo $relateds[$i]["href"]; ?>">
 					<?php if(!empty($relateds[$i]["image"])){?>
 					    <img src="<?php echo $relateds[$i]["image"]; ?>" alt="<?php echo $relateds[$i]["name"]; ?>">
 					<?php }else{ ?>

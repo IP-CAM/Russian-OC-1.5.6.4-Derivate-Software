@@ -143,6 +143,7 @@ class ControllerCommonHeader extends Controller {
                 'href'     => $this->url->link('product/category', 'path=' . $prodag['category_id'])
             );
         }
+		
 		// Menu
 		$this->load->model('catalog/category');
 
@@ -151,6 +152,7 @@ class ControllerCommonHeader extends Controller {
 		$this->data['categories'] = array();
 
 		$categories = $this->model_catalog_category->getCategories(0);
+		
 		foreach ($categories as $category) {
 			if ($category['top']) {
 				// Level 2

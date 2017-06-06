@@ -70,11 +70,60 @@ class ControllerCommonFooter extends Controller {
 			'contact'   => '<a href="/contact.html">Контакты</a>',
 		);			
 		/*Основное меню*/
+		
+		// Menu
+		$this->load->model('catalog/category');
+
+		$this->load->model('catalog/product');
+		
+		if (isset($this->request->get['path'])) {
+			
+			$path = '';
+			
+			$parts = explode('_', (string)$this->request->get['path']);
+	
+			foreach ($parts as $path_id) {
+
+				if (!$path) {
+					$path = (int)$path_id;
+				} else {
+					$path .= '_' . (int)$path_id;
+				}
+				
+				$category_info = $this->model_catalog_category->getCategory($path_id);
+			}
+			
+			$category_id = (int)array_pop($parts);
+		} else {
+			$category_id = 0;
+		}
+		
+		$this->data['category_id'] = $category_id;
+
+		$this->data['categories'] = array();
+
+		$categories = $this->model_catalog_category->getAllCategory();
+		
+		foreach ($categories as $category) {
+			if($category['title_footer_menu']){
+				$title_footer_menu = $category['title_footer_menu'];
+			}else{
+				$title_footer_menu = 'Безимянная категория'; 
+			}
+			
+			if ($category['footer_menu']) {
+				// Level 1
+				$this->data['categories'][] = array(
+					'category_id' => $category['category_id'],
+					'name'        => $title_footer_menu,
+					'href'        => $this->url->link('product/category', 'path=' . $category['category_id'])
+				);
+			}
+		}
 				
 		$this->data['logged'] = $this->customer->isLogged();
 		$this->data['checkout'] = $this->url->link('checkout/checkout', '', 'SSL');
 
-		
         /*Ссылки в футере*/
 		$this->data['powered'] = sprintf($this->language->get('text_powered'), $this->config->get('config_name'), date('Y', time()));
 

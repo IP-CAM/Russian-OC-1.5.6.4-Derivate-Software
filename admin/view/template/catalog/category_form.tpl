@@ -126,15 +126,20 @@
                 <input type="hidden" name="image" value="<?php echo $image; ?>" id="image" />
                 <br /><a onclick="image_upload('image', 'thumb');"><?php echo $text_browse; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('#thumb').attr('src', '<?php echo $no_image; ?>'); $('#image').attr('value', '');"><?php echo $text_clear; ?></a></div></td>
               <td><?php echo $info_image; ?></td>
-			</tr>
+						</tr>
             <tr>
-              <td><?php echo $entry_top; ?></td>
-              <td><?php if ($top) { ?>
-                <input type="checkbox" name="top" value="1" checked="checked" />
+              <td><?php echo $entry_footer; ?></td>
+              <td><?php if ($footer_menu) { ?>
+                <input type="checkbox" name="footer_menu" value="1" checked="checked" />
                 <?php } else { ?>
-                <input type="checkbox" name="top" value="1" />
+                <input type="checkbox" name="footer_menu" value="1" />
                 <?php } ?></td>
-			  <td><?php echo $info_top; ?></td>
+						  <td><?php echo $info_footer; ?></td>
+            </tr>
+						<tr>
+              <td>Название меню в футере:</td>
+							<td><input type="text" name="title_footer_menu" value="<?php echo $title_footer_menu; ?>" /></td>
+							<td></td>
             </tr>
             <tr>
               <td><?php echo $entry_column; ?></td>

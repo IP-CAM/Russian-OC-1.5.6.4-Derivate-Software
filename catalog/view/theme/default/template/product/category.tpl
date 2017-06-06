@@ -48,19 +48,19 @@
 	</div><!-- End top-obj-text -->
 	<div class="content-obj-page">
 	<div class="obj-filter" id="scroll-down">
-	<?php foreach ($sorts_up_price as $sorts) { ?>	
+	<?php foreach ($sorts_up_price as $sorts) { ?>
 		<input onchange="location = this.value;" id="check-1" type="checkbox" value="<?php echo $sorts['up']; ?>" checked hidden />
 		<input onchange="location = this.value;" id="check-2" type="checkbox" value="<?php echo $sorts['down']; ?>" checked hidden />
 	        <span><label>Сортировать по цене:</label>
 				<?php if($separator == 'asc'){ ?>
-					<label for="check-1" <?php echo $id; ?> class="down"></label>
-					<label for="check-2" class="up"></label>
+					<label for="check-1" <?php echo $id; ?> class="down"></label>	
+					<label for="check-2" class="up"></label>	
 				<?php }elseif($separator == 'desc'){ ?>
 					<label for="check-1" class="down"></label>
 					<label for="check-2" <?php echo $id; ?> class="up"></label>
 				<?php }else{ ?>
 					<label for="check-1" class="down"></label>
-					<label for="check-2" class="up"></label>
+					<label for="check-2" class="up"></label>	
 				<?php } ?>
 			</span>
 	<?php } ?>
