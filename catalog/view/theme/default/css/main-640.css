@@ -1258,7 +1258,7 @@ form.contact .inp-block input, form.contact .right-form textarea {
     display: inline-block;
     float: left;
     margin-left: 0;
-    margin-top: 7px;
+    margin-top: 30px;
     position: relative;
     width: 172px;
     z-index: 0;
@@ -1476,8 +1476,8 @@ form.contact .inp-block input, form.contact .right-form textarea {
 .under-desc-gal p, .under-desc-gal span {
     color: #1F1F1F !important;
     font-family: "HelveticaLight" !important;
-    font-size: 16px !important;
-    line-height: 22px !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
     margin-left: 10px;
 	margin-right: 10px;
 }
@@ -1560,6 +1560,76 @@ form.contact .inp-block input, form.contact .right-form textarea {
 
 .bottom-content-top {
     height: auto !important;
+}
+
+.crumbs ul li:last-child {
+    margin-top: 0;
+}
+
+.top-obj-text h2 {
+    font-size: 14px;
+}
+
+.content-obj-page > ul li {
+    margin-bottom: 15px;
+}
+
+.obj-filter {
+    margin-bottom: 10px;
+}
+
+.content-about .content-top p,
+.content-about .content-bottom p {
+    line-height: 18px;
+}
+
+.mid-text ul {
+    padding-bottom: 0 !important;
+}
+
+.front-text-4 {
+    display: none;
+}
+
+form.contact .inp-block input,
+form.contact .right-form textarea {
+    height: 17px;
+}
+
+.form-holder-640 form.contact .inp-block textarea {
+    height: 100px;
+}
+
+.top-obj-text  ul li {
+    text-align: left;
+}
+
+.content-obj-page > ul li h2 {
+    font-size: 12px;
+}
+
+.top-obj-text ul {
+    list-style: disc;
+    padding-bottom: 0px !important;
+}
+
+.top-obj-text ul li {
+    display: block;
+    font-size: 12px;
+}
+
+.content-obj-page > ul li p {
+    font-size: 12px;
+}
+
+.crumbs ul li,
+.crumbs ul li a {
+    font-size: 10px;
+}
+
+.top-obj-text p {
+    font-size: 12px !important;
+    line-height: 14px !important;
 }
 
 }

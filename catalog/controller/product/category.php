@@ -438,7 +438,7 @@ class ControllerProductCategory extends Controller {
 					$rating = false;
 				}
 
-				$description_symbols = 250; //стояла 180
+				$description_symbols = 200; //стояла 180
 
 					$descr_plaintext = strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8'));
 

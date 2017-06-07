@@ -5542,3 +5542,7 @@ h2 {
 .content-top-new .main-list-urgently {
     padding-bottom: 10px !important;
 }
+
+.table-wrap {
+    overflow: auto;
+}

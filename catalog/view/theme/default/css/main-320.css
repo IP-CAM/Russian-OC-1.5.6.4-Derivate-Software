@@ -1141,7 +1141,7 @@ margin-left: 0px;
 
 .content-obj-page > ul li {
     box-shadow: 0 0 2px 2px #d7d5ba;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     margin-left: 3px;
     overflow: hidden;
     padding-bottom: 10px;
@@ -1693,6 +1693,75 @@ form.contact .inp-block p {
 
 .more-descr {
     overflow: visible;
+}
+
+.top-obj-text h2 {
+    display: none;
+}
+
+.obj-filter {
+    margin: 10px 0px 10px 0px;
+}
+
+.more-descr {
+    clear: both;
+}
+
+.content-top ul li {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.main-list-urgently {
+    padding-bottom: 15px !important;
+}
+
+.front-text-4 {
+    display: none;
+}
+
+form.contact .inp-block input,
+form.contact .right-form textarea {
+    height: 17px;
+}
+
+.form-holder-640 form.contact .inp-block textarea {
+    height: 100px;
+}
+
+.form-holder-640 form.contact .inp-block {
+    margin-bottom: 10px;
+}
+
+.top-obj-text  ul li {
+    text-align: left;
+}
+
+.top-obj-text .list-products {
+    padding-top: 0;
+}
+
+.content-services .col .block {
+    margin-bottom: 15px;
+}
+
+.info-block,
+.info-block ul li {
+    min-height: auto !important;
+    height: auto !important;
+}
+
+.left-desc {
+    margin-bottom: 5px;
+}
+
+.top-obj-text ul li {
+    display: block;
+    font-size: 12px;
+}
+
+.top-obj-text .list-products li {
+    margin-bottom: 0;
 }
 
 }
