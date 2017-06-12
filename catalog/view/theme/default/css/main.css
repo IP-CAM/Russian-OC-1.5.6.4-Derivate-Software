@@ -5546,3 +5546,71 @@ h2 {
 .table-wrap {
     overflow: auto;
 }
+
+.gallery-desc .left-desc p {
+    margin-bottom: 17px !important;
+}
+
+.form-holder .name,
+.form-holder-640 .name {
+    padding-bottom: 10px !important;
+    padding-top: 20px !important;
+}
+
+
+
+.gallery-desc .left-desc p {
+    margin-bottom: 10px !important;
+}
+
+.gallery-desc .left-desc .contact p:first-child {
+    margin-bottom: 0 !important;
+}
+
+.left-desc .info-block {
+    min-height: auto;
+}
+
+.left-desc p.price,
+.left-desc .info-block p {
+    margin-left: 0 !important;
+}
+
+.left-desc .info-block ul li:first-child {
+    margin-bottom: 10px !important;
+}
+
+.left-desc .info-block ul li:first-child p {
+    margin-bottom: 0 !important;
+}
+
+
+.left-desc p.price,
+.left-desc .info-block p {
+    margin-left: 0 !important;
+}
+
+.left-desc .info-block ul li:first-child {
+    margin-bottom: 0px !important;
+}
+
+.left-desc .info-block ul li:first-child p {
+    margin-bottom: 0 !important;
+}
+
+.left-desc .info-block ul li p {
+    margin-top: 15px !important;
+    margin-bottom: -10px !important;
+}
+
+.left-desc .contact-block {
+    margin-top: 10px;
+}
+
+.left-desc ul li.contact {
+    margin-top: 57px;
+}
+
+.left-desc h2, .left-desc h3 {
+    margin-left: 0 !important;
+}

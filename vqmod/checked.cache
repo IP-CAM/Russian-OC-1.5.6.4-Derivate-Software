@@ -230,3 +230,7 @@ admin/view/template/extension/shipping.tpl
 admin/controller/catalog/cachemanager.php
 admin/language/russian/catalog/cachemanager.php
 admin/view/template/catalog/cache_list.tpl
+admin/controller/localisation/currency.php
+admin/language/russian/localisation/currency.php
+admin/view/template/localisation/currency_list.tpl
+admin/view/template/localisation/currency_form.tpl

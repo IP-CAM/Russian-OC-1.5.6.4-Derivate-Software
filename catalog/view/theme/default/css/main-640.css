@@ -1279,7 +1279,8 @@ form.contact .inp-block input, form.contact .right-form textarea {
 }
 
 .left-desc .price-block {
-    height: 55px;
+    /*height: 55px;*/
+    height: auto;
 }
 
 
@@ -1630,6 +1631,78 @@ form.contact .right-form textarea {
 .top-obj-text p {
     font-size: 12px !important;
     line-height: 14px !important;
+}
+
+.left-desc p.price,
+.left-desc .info-block p {
+    margin-left: 0 !important;
+}
+
+
+.gallery-desc .left-desc p {
+    margin-bottom: 0px !important;
+}
+
+.gallery-desc .left-desc .contact p:first-child {
+    margin-bottom: 0 !important;
+}
+
+.left-desc .info-block {
+    min-height: 180px;
+}
+
+.left-desc p.price,
+.left-desc .info-block p {
+    margin-left: 0 !important;
+}
+
+.left-desc .info-block ul li:first-child {
+    margin-bottom: 0px !important;
+}
+
+.left-desc .info-block ul li:first-child p {
+    margin-bottom: 0 !important;
+}
+
+.left-desc .info-block ul li p {
+    margin-top: 10px !important;
+    margin-bottom: -15px !important;
+}
+
+.left-desc .contact-block {
+    margin-top: 10px;
+}
+
+.maps .name {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.left-desc {
+    margin-top: 37px;
+}
+
+.left-desc .info-block,
+.left-desc h3,
+.left-desc p,
+.left-desc .info-block ul li p {
+    font-size: 12px !important;
+}
+
+.left-desc h2 {
+    font-size: 14px;
+}
+
+.left-desc .info-block ul li {
+    min-height: 20px;
+}
+
+.left-desc .contact-block {
+    margin-top: -59px;
+}
+
+.right-desc-640 ul li {
+    opacity: 1;
 }
 
 }

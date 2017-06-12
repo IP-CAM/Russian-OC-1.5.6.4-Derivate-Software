@@ -2706,3 +2706,32 @@
 2017-06-06 13:05:34 - PHP Notice:  Undefined variable: discount_row in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 1026
 2017-06-06 13:06:04 - PHP Warning:  Illegal string offset 'square_meter' in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 110
 2017-06-06 13:06:04 - PHP Notice:  Undefined variable: discount_row in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 1026
+2017-06-07 9:34:56 - PHP Notice:  unserialize(): Error at offset 3513 of 4602 bytes in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/system/library/cache.php on line 11
+2017-06-07 9:45:11 - PHP Notice:  unserialize(): Error at offset 3513 of 35705 bytes in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/system/library/cache.php on line 11
+2017-06-07 9:46:55 - PHP Notice:  unserialize(): Error at offset 3513 of 30198 bytes in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/system/library/cache.php on line 11
+2017-06-07 9:47:41 - PHP Notice:  unserialize(): Error at offset 1633 of 143227 bytes in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/system/library/cache.php on line 11
+2017-06-07 9:47:41 - PHP Warning:  Illegal string offset 'square_meter' in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 110
+2017-06-07 9:47:41 - PHP Notice:  Undefined variable: discount_row in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 1026
+2017-06-07 9:47:47 - PHP Warning:  Illegal string offset 'square_meter' in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 110
+2017-06-07 9:47:47 - PHP Notice:  Undefined variable: discount_row in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 1026
+2017-06-07 9:47:52 - PHP Warning:  Illegal string offset 'square_meter' in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 110
+2017-06-07 9:47:52 - PHP Notice:  Undefined variable: discount_row in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 1026
+2017-06-07 9:51:50 - PHP Warning:  Illegal string offset 'square_meter' in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 110
+2017-06-07 9:51:50 - PHP Notice:  Undefined variable: discount_row in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 1026
+2017-06-07 9:52:28 - PHP Warning:  Illegal string offset 'square_meter' in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 110
+2017-06-07 9:52:28 - PHP Notice:  Undefined variable: discount_row in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 1026
+2017-06-07 9:54:57 - PHP Notice:  unserialize(): Error at offset 1706 of 43346 bytes in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/system/library/cache.php on line 11
+2017-06-07 10:05:54 - PHP Notice:  unserialize(): Error at offset 581 of 16520 bytes in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/system/library/cache.php on line 11
+2017-06-07 10:05:57 - PHP Notice:  unserialize(): Error at offset 14460 of 75618 bytes in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/system/library/cache.php on line 11
+2017-06-07 10:05:59 - PHP Notice:  unserialize(): Error at offset 4513 of 34802 bytes in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/system/library/cache.php on line 11
+2017-06-07 11:04:39 - PHP Notice:  Undefined index: bits in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/system/library/image.php on line 16
+2017-06-07 11:04:39 - PHP Notice:  Undefined index: bits in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/system/library/image.php on line 16
+2017-06-07 11:04:39 - PHP Notice:  Undefined index: bits in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/system/library/image.php on line 16
+2017-06-08 6:44:29 - PHP Notice:  unserialize(): Error at offset 4222 of 24379 bytes in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/system/library/cache.php on line 11
+2017-06-08 6:44:29 - PHP Notice:  unserialize(): Error at offset 1166 of 10425 bytes in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/system/library/cache.php on line 11
+2017-06-08 6:46:02 - PHP Warning:  Illegal string offset 'square_meter' in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 110
+2017-06-08 6:46:02 - PHP Notice:  Undefined variable: discount_row in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 1026
+2017-06-08 6:47:09 - PHP Warning:  Illegal string offset 'square_meter' in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 110
+2017-06-08 6:47:09 - PHP Notice:  Undefined variable: discount_row in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 1026
+2017-06-08 13:24:09 - PHP Warning:  Illegal string offset 'square_meter' in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 110
+2017-06-08 13:24:09 - PHP Notice:  Undefined variable: discount_row in /var/www/vhosts/3331141.xeovo.ml/public_html/partner/admin/view/template/catalog/product_form.tpl on line 1026

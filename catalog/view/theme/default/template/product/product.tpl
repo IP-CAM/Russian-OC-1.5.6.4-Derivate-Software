@@ -1,4 +1,5 @@
 <?php echo $header; ?><?php echo $column_right; ?><?php echo $content_top; ?>
+<div id="breadcrumbs"></div>
 <div class="crumbs">
 <ul>
     <?php
@@ -18,7 +19,7 @@
 </ul>
 </div><!-- End crumbs -->
 
-<div class="obj-content">
+<div  class="obj-content">
 
 <h1><?php echo $heading_title;?></h1>
 
@@ -148,14 +149,14 @@
 			<div class="price-block">
 			<?php if(!$special_usd) { ?>
 			<h2>Цена:</h2> <h3><?php echo $rub; ?> руб.<?php if($square_meter[0]["square_meter"] == '1'){ ?>/кв.м.<?php } ?></h3>
-			<p class="price"><?php echo $usd; ?> у.е.<?php if($square_meter[0]["square_meter"] == '1') { ?>/кв.м.<?php } ?></p>
+			<p class="price"><?php echo $usd; ?> $<?php if($square_meter[0]["square_meter"] == '1') { ?>/кв.м.<?php } ?></p>
 			<?php }else{ ?>
 			<?php if ($currency_id == 1){ ?>
 			<h2>Цена:</h2><h3><strike><?php echo $rub; ?> руб.<?php if($square_meter[0]["square_meter"] == '1') { ?>/кв.м.<?php } ?></strike></h3>
 			<p class="price"><?php echo $special_rub; ?> руб.<?php if($square_meter[0]["square_meter"]  == '1') { ?>/кв.м.<?php } ?></p>
 			<?php }else{ ?>
-			<h2>Цена:</h2><h3><strike><?php echo $usd; ?> у.е.<?php if($square_meter[0]["square_meter"] == '1') { ?>/кв.м.<?php } ?></strike></h3>
-			<p class="price"><?php echo $special_usd; ?> у.е.<?php if($square_meter[0]["square_meter"]  == '1') { ?>/кв.м.<?php } ?></p>
+			<h2>Цена:</h2><h3><strike><?php echo $usd; ?> $<?php if($square_meter[0]["square_meter"] == '1') { ?>/кв.м.<?php } ?></strike></h3>
+			<p class="price"><?php echo $special_usd; ?> $<?php if($square_meter[0]["square_meter"]  == '1') { ?>/кв.м.<?php } ?></p>
 			<?php } ?>
 			<?php } ?>
 			</div>
@@ -334,8 +335,9 @@
 
 <?php echo $footer; ?>
 
-    <script type="text/javascript">
-        window.onload = function(){
-            jQuery('html, body').animate({scrollTop:470}, 'fast');
-        }
-    </script>
+<script type="text/javascript">
+	$(function() {
+	  var $to = $('#breadcrumbs');
+	  $('html, body').animate({ 'scrollTop': $to.offset().top}, 0);
+	}); 
+</script>

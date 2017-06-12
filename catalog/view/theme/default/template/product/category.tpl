@@ -102,7 +102,7 @@
 				<div class="price-obj">
 					<?php if (!$product['special']) { ?>
 					<h3>Цена: <i><?php echo $product['rub']; ?> руб.<?php if($product['square_meter'][0]["square_meter"] == '1'){ ?>/кв.м.<?php } ?></i></h3>
-				 	<i><?php echo $product['price']; ?> у.е.<?php if($product['square_meter'][0]["square_meter"] == '1') { ?>/кв.м.<?php } ?></i>
+				 	<i><?php echo $product['price']; ?> $<?php if($product['square_meter'][0]["square_meter"] == '1') { ?>/кв.м.<?php } ?></i>
 					<?php } else { ?>
 					
 					<?php if ($product['currency_id'] == 1){ ?>
@@ -110,8 +110,8 @@
 					<i><?php echo $product['special_rub']; ?> руб.<?php if($product['square_meter'][0]["square_meter"] == '1') { ?>/кв.м.<?php } ?></i></i>
 					
 					<?php } else { ?>
-					<h3>Цена: <i><strike><?php echo $product['price']; ?> у.е.<?php if($product['square_meter'][0]["square_meter"] == '1') { ?>/кв.м.<?php } ?></strike></i></h3>
-					<i><?php echo $product['special']; ?> у.е.<?php if($product['square_meter'][0]["square_meter"] == '1') { ?>/кв.м.<?php } ?></i></i>
+					<h3>Цена: <i><strike><?php echo $product['price']; ?> $<?php if($product['square_meter'][0]["square_meter"] == '1') { ?>/кв.м.<?php } ?></strike></i></h3>
+					<i><?php echo $product['special']; ?> $<?php if($product['square_meter'][0]["square_meter"] == '1') { ?>/кв.м.<?php } ?></i></i>
 					<?php } ?>
 					<?php } ?>
 				</div><!-- End price-obj -->

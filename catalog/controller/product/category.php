@@ -437,8 +437,12 @@ class ControllerProductCategory extends Controller {
 				} else {
 					$rating = false;
 				}
-
-				$description_symbols = 200; //стояла 180
+				
+				if(isMobile || isTablet){
+					$description_symbols = 200; //стояла 180
+				}else{
+					$description_symbols = 260; //стояла 180
+				}
 
 					$descr_plaintext = strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8'));
 

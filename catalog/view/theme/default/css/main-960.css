@@ -1370,4 +1370,80 @@ header > ul.left-menu li::after {
     height: auto !important;
     margin-bottom: 40px;
 }
+
+.content-about h1 {
+    width: 570px;
+    padding-bottom: 20px;
+    margin-left: 28px;
+}
+
+.gallery-desc .left-desc p {
+    margin-bottom: 10px !important;
+}
+
+.gallery-desc .left-desc .contact p:first-child {
+    margin-bottom: 0 !important;
+}
+
+.left-desc .info-block {
+    min-height: auto;
+}
+
+.left-desc p.price,
+.left-desc .info-block p {
+    margin-left: 0 !important;
+}
+
+.left-desc .info-block ul li:first-child {
+    margin-bottom: 10px !important;
+}
+
+.left-desc .info-block ul li:first-child p {
+    margin-bottom: 0 !important;
+}
+
+
+.left-desc p.price,
+.left-desc .info-block p {
+    margin-left: 0 !important;
+}
+
+.left-desc .info-block ul li:first-child {
+    margin-bottom: 0px !important;
+}
+
+.left-desc .info-block ul li:first-child p {
+    margin-bottom: 0 !important;
+}
+
+.left-desc .info-block ul li p {
+    margin-top: 12px !important;
+    margin-bottom: -10px !important;
+}
+
+.left-desc .contact-block {
+    margin-top: 10px;
+}
+
+.left-desc ul li.contact {
+    margin-top: 20px;
+}
+
+.maps .name {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.left-desc h3 {
+    margin-top: 0;
+}
+
+.left-desc .price-block {
+    height: 67px;
+}
+
+.left-desc ul li.contact {
+    margin-top: 32px;
+}
+
 }
